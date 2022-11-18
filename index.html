@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+
+<!DOCTYPE html>
+    <!-- Coding by CodingLab | www.codinglabweb.com -->
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<title>Responsive Card Slider</title>-->
+
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="./css/style.css">
+
+
+        <!-- CSS -->
+        
+        <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="./css/general/style-general.css">
+                                        
+    </head>
+    <body>
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html">LOGO PIERROT</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">Qui sommes nous ?</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pricing.html">Devis</a></li>
+                            <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                    <li><a class="dropdown-item" href="blog-home.html">Blog Home</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                    <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- ok-->
+            <header class="bg-dark py-5">
+              <div class="Photo">
+                    <img src="./images/bon.jpeg" alt="">
+                    <div class="col-lg-8 col-xl-7 col-xxl-6">
+                        <div class="my-5 text-center text-xl-start">
+                            <h1 class="display-5 fw-bolder text-white mb-2"> " non du site expert en ... </h1>
+                            <p class="lead fw-normal text-white-50 mb-4">bréve présentation de ce que tu fais</p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Je fais mon Devis</a>
+                                <a class="btn btn-outline-light btn-lg px-4" href="#!">Contactez-nous</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="container px-5">
+                
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        
+                       <!--  <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="./images/detection-de-fuite.jpeg" alt="..." /></div> -->
+                    </div>
+                </div>
+            </header>
+
+            <!-- ok -->
+            <section class="py-5">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-8 col-xl-6">
+                            <div class="text-center">
+                                <h2 class="fw-bolder">Nos Services</h2>
+                                <p class="lead fw-normal text-muted mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.</p>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="slide-container swiper">
+                        <div class="slide-content">
+                            <div class="card-wrapper swiper-wrapper">
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+            
+                                        <div class="card-image">
+                                            <img src="./images/detection-de-fuite.jpeg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+            
+                                    <div class="card-content">
+                                        <h2 class="name">Detection de Fuite</h2>
+                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+            
+                                        <button class="button">En savoir plus</button>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+            
+                                        <div class="card-image">
+                                            <img src="./images/charpente.jpeg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+            
+                                    <div class="card-content">
+                                        <h2 class="name">Pose de charpente</h2>
+                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+            
+                                        <button class="button">En savoir plus</button>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+            
+                                        <div class="card-image">
+                                            <img src="./images/maçonnerie.jpeg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+            
+                                    <div class="card-content">
+                                        <h2 class="name">Maçonnerie</h2>
+                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+            
+                                        <button class="button">En savoir plus</button>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+            
+                                        <div class="card-image">
+                                            <img src="./images/toiture.jpeg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+            
+                                    <div class="card-content">
+                                        <h2 class="name">Toiture</h2>
+                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+            
+                                        <button class="button">En savoir plus</button>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+            
+                                        <div class="card-image">
+                                            <img src="./images/toit.jpeg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+            
+                                    <div class="card-content">
+                                        <h2 class="name">David Dell</h2>
+                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+            
+                                        <button class="button">En savoir plus</button>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+            
+                                        <div class="card-image">
+                                            <!--<img src="images/profile6.jpg" alt="" class="card-img">-->
+                                        </div>
+                                    </div>
+            
+                                    <div class="card-content">
+                                        <h2 class="name">David Dell</h2>
+                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+            
+                                        <button class="button">En savoir plus</button>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+            
+                                        <div class="card-image">
+                                            <!--<img src="images/profile7.jpg" alt="" class="card-img">-->
+                                        </div>
+                                    </div>
+            
+                                    <div class="card-content">
+                                        <h2 class="name">David Dell</h2>
+                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+            
+                                        <button class="button">En savoir plus</button>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+            
+                                        <div class="card-image">
+                                            <!--<img src="images/profile8.jpg" alt="" class="card-img">-->
+                                        </div>
+                                    </div>
+            
+                                    <div class="card-content">
+                                        <h2 class="name">David Dell</h2>
+                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+            
+                                        <button class="button">En savoir plus</button>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+            
+                                        <div class="card-image">
+                                            <!--<img src="images/profile9.jpg" alt="" class="card-img">-->
+                                        </div>
+                                    </div>
+            
+                                    <div class="card-content">
+                                        <h2 class="name">David Dell</h2>
+                                        <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+            
+                                        <button class="button">En savoir plus</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="swiper-button-next swiper-navBtn"></div>
+                        <div class="swiper-button-prev swiper-navBtn"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+            
+                    <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+                        <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
+                            <div class="mb-4 mb-xl-0">
+                                <div class="fs-3 fw-bold text-white">Votre Devis ( Gratuit ? ) en quelque clics</div>
+                                <div class="text-white-50">Sign up for our newsletter for the latest updates.</div>
+                            </div>
+                            <div class="ms-xl-4">
+                                <div class="input-group mb-2">
+                                    <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
+                                    <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign up</button>
+                                </div>
+                                <div class="small text-white-50">We care about privacy, and will never share your data.</div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+
+            <section class="showcase">
+                <div class="container-fluid p-0">
+                    <div class="row g-0">
+                        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('images/ouvrier.webp')"></div>
+                        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                            <h2>Fully Responsive Design</h2>
+                            <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae at earum iure ipsa vel et beatae animi alias inventore nulla molestiae quibusdam id dicta iusto dolore, dolor sunt numquam.</p>
+                        </div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-lg-6 text-white showcase-img" style="background-image: url('images/bonhomme.jpeg')"></div>
+                        <div class="col-lg-6 my-auto showcase-text">
+                            <h2>Updated For Bootstrap 5</h2>
+                            <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi incidunt, culpa inventore amet itaque iste provident eos reprehenderit dolore praesentium, esse rem earum adipisci, fugit non a nemo tempore.</p>
+                        </div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('images/detection-de-fuite.jpeg')"></div>
+                        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                            <h2>Easy to Use & Customize</h2>
+                            <p class="lead mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias consequuntur accusamus, odit amet ducimus labore error fugit iusto temporibus assumenda ipsum unde voluptates odio quas similique facere quis blanditiis totam?</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+<footer class="footer">
+    <div class="a_propos">
+        <ul>
+            <li>
+                <h2>Nos partenaires</h2>
+            </li>
+            <li> ... </li>
+            <li> ... </li>
+            <li> ... </li>
+        </ul>
+    </div>
+    <div class="nos_hebergements">
+        <ul>
+            <li>
+                <h2>Nos déplacements</h2>
+            </li>
+            <li> ... </li>
+            <li> ... </li>
+            <li> ... </li>
+            <li> ... </li>
+        </ul>
+    </div>
+    <div class="assistance">
+        <ul>
+            <li>
+                <h2>Coordonnées</h2>
+            </li>
+            <li>Telephone</li>
+            <li> Mail </li>
+            <li> Adresse </li>
+
+        </ul>
+    </div>
+</footer>
+    </div>
+</section>
+</main>
+<!-- Footer-->
+<footer class="bg-dark py-4 mt-auto">
+<div class="container px-5">
+    <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+        <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2022</div></div>
+        <div class="col-auto">
+            <a class="link-light small" href="#!">Privacy</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Terms</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Contact</a>
+        </div>
+    </div>
+</div>
+</footer>
+        
+    </body>
+
+    <!-- Swiper JS -->
+      <!--Uncomment this line-->
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+      <!--Uncomment this line-->
+    <script src="./js/script.js"></script>
+</html>
