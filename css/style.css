@@ -125,6 +125,12 @@
     display: none;
   }
 }
+@media (max-width: 700px) {
+  body > main > section.py-5 > div > div.slide-container.swiper > div.swiper-button-prev.swiper-navBtn,
+body > main > section.py-5 > div > div.slide-container.swiper > div.swiper-button-next.swiper-navBtn {
+  visibility: hidden;
+}
+}
 
 <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
 <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
