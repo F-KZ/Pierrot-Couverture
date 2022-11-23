@@ -11286,3 +11286,33 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+#navbarSupportedContent > ul > li:nth-child(4) > ul {
+  display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#navbarSupportedContent > ul > li:nth-child(4):hover ul {
+  display: block;
+}
+
+
+
+#navbarSupportedContent > ul > li:nth-child(4) > ul > li a {
+  color:white;
+  text-decoration: none;
+    
+}
+
+#navbarSupportedContent > ul > li:nth-child(4) > ul > li a:hover {
+  color:beige;
+}
+
+
+
+
+
+
+
