@@ -2722,13 +2722,10 @@
     transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
   }
   
-  .input-group {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    width: 100%;
-  }
+
+  @media (min-width:993px) {
+    
+  
   .input-group > .form-control,
   .input-group > .form-select {
     position: relative;
@@ -2736,6 +2733,40 @@
     width: 1%;
     min-width: 0;
   }
+
+  .input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+  }
+}
+
+@media (max-width:992px) {
+  #button-newsletter{
+    margin-top: 15px;
+  }
+
+  .input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    flex-direction: column;
+}
+  
+}
+@media (max-width:992px) {
+  .input-group > .form-control, .input-group > .form-select {
+    position: relative;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+  
+}
+  
   .input-group > .form-control:focus,
   .input-group > .form-select:focus {
     z-index: 3;
@@ -11625,5 +11656,14 @@ body > main > header > div > div > div > div > span {
   padding: 15px;
   text-align: left;
 }
+
+#mainNav .navbar-toggler {
+  
+    font-weight: 800;
+    padding: 0.75rem;
+    text-transform: uppercase;
+}
+
+
 
 
