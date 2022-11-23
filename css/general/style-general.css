@@ -11567,5 +11567,30 @@ header.masthead .site-heading {
   color: #fff;
 }
 
+@media (min-width: 993px) {
+#mainNav {
+  height:150px;
+}
+}
 
+body > main > header > div > div > div > div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+body > main > header > div > div > div > div > h1 {
+  order: none;
+    font-size: 30px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #4070F4;
+    border-radius: 6px;
+    margin: 14px;
+}
+
+body > main > header > div > div > div > div > span {
+  font-size: 25px;
+}
 
