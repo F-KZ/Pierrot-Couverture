@@ -2741,6 +2741,10 @@
     align-items: stretch;
     width: 100%;
   }
+
+  mainNav > div > img{
+    height: 375px;
+  }
 }
 
 @media (max-width:992px) {
@@ -2755,6 +2759,11 @@
     align-items: stretch;
     width: 100%;
     flex-direction: column;
+}
+#mainNav > div > img {
+  height: 270px;
+  background-color: #0d6efd;
+  border-radius: 35px;
 }
   
 }
