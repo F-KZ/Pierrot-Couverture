@@ -11670,6 +11670,7 @@ body > main > header > div > div > div > div > span {
   
     font-weight: 800;
     padding: 0.75rem;
+    margin-top: 5px;
     text-transform: uppercase;
 }
 
