@@ -4566,7 +4566,6 @@
     background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 0.25rem;
   }
   .card > hr {
     margin-right: 0;
@@ -11335,6 +11334,20 @@
     .d-print-none {
       display: none !important;
     }
+  }
+
+  #navbarSupportedContent > a {
+    text-decoration: none;
+    color:white;
+    padding:1rem 2rem;
+    border-radius: 100px;
+    background-color: darkred;
+
+  }
+
+  #navbarSupportedContent > a > i{
+    padding-right:0,4rem;
+
   }
   
   .feature {
