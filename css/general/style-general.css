@@ -11568,6 +11568,24 @@
     justify-content: space-between;
   }
 
+  body > main > footer > div.nos_hebergements > ul > img,
+  body > main > footer > div.a_propos > ul > img {
+    width: 306px;
+    height: 200px;
+  }
+
+  body > main > footer > div.assistance > ul > a:nth-child(2) > li,
+  body > main > footer > div.assistance > ul > a:nth-child(3) > li {
+    border: none;
+    color: #FFF;
+    padding: 9px;
+    background-color: #4070F4;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
   body > main > section.showcase > div > div:nth-child(1) > div.col-lg-6.order-lg-1.my-auto.showcase-text > h2 {
     border: none;
     /* font-size: 16px; */
