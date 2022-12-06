@@ -11587,7 +11587,7 @@
 
   body > main > footer > div.nos_hebergements > ul > img,
   body > main > footer > div.a_propos > ul > img {
-    width: 306px;
+    width: 100%;
     height: 200px;
   }
 
