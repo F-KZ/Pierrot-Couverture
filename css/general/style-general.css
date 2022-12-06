@@ -11574,11 +11574,15 @@
 
   body > main > footer {
     display: flex;
-    padding: 40px;
+    padding: 20px;
     margin-top: 15px;
     flex-direction: row;
     
     justify-content: space-between;
+  }
+
+  body > main > footer > div.assistance > ul {
+    list-style-type: none;
   }
 
   body > main > footer > div.nos_hebergements > ul > img,
@@ -11595,6 +11599,7 @@
     background-color: #4070F4;
     border-radius: 6px;
     margin: 14px;
+    text-align: center;
     cursor: pointer;
     transition: all 0.3s ease;
   }
@@ -11730,5 +11735,9 @@ body > main > header > div > div > div > div > h3 {
     background-color: #f44840;
     border-radius: 6px;
     margin: 14px;
+}
+
+body > main > footer > div.assistance > ul > li > h2 {
+  text-align: center;
 }
 
