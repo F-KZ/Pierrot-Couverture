@@ -11577,8 +11577,7 @@
     padding: 20px;
     margin-top: 15px;
     flex-direction: row;
-    
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   body > main > footer > div.assistance > ul {
@@ -11740,5 +11739,16 @@ body > main > header > div > div > div > div > h3 {
 
 body > main > footer > div.assistance > ul > li > h2 {
   text-align: center;
+}
+
+@media (max-width: 425px){
+  
+
+body > main > footer > div.nos_hebergements > ul,
+body > main > footer > div.a_propos > ul,
+body > main > footer > div.assistance > ul {
+  padding: 0;
+}
+
 }
 
