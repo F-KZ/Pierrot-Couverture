@@ -25,7 +25,7 @@
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Accueil</a></li>
                             <li class="nav-item"><a class="nav-link" href="#!">Intervention d'Urgence</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./devis.html">Devis</a></li>
                             <li class="nav-item"><a class="nav-link" href="#!">Services</a>
                                 <ul class="nav-">
                                     <li><a href="fuite.html">Detection de fuite</a></li>
@@ -62,7 +62,7 @@
                                 <!-- To make this form functional, sign up at-->
                                 <!-- https://startbootstrap.com/solution/contact-forms-->
                                 <!-- to get an API token!-->
-                                <form id="contactForm">
+                                <form id="contactForm" method = 'POST' action='./php/index.php'>
                                     <!-- Name input-->
                                     <div class="form-floating mb-3">
                                         <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
@@ -78,7 +78,7 @@
                                     </div>
                                     <!-- Phone number input-->
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                        <input class="form-control" id="phone" type="tel" placeholder="+33" data-sb-validations="required" />
                                         <label for="phone">Telephone</label>
                                         <div class="invalid-feedback" data-sb-feedback="phone:required">Veuillez entrez un numéro de télephone</div>
                                     </div>
