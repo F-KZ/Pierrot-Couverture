@@ -244,13 +244,13 @@
                                 <div class="text-white-50">Nous vous contacterons dans les plus brefs délais.</div>
                             </div>
                             <div class="ms-xl-4">
-                                <div class ="input-group mb-2" method = 'POST' action='./php/index.php'>
-                                    <input class="form-control" type="text" placeholder="Prénom..." aria-label="Prénom..." aria-describedby="button-newsletter" />
-                                    <input class="form-control" type="text" placeholder="Nom..." aria-label="name..." aria-describedby="button-newsletter" />
-                                    <input class="form-control" type="text" placeholder="Telephone..." aria-label="phone..." aria-describedby="button-newsletter" />
-                                    <input class="form-control" type="text" placeholder="E-mail..." aria-label="mail..." aria-describedby="button-newsletter" />
-                                    <button class="btn btn-outline-light" id="button-newsletter" type="button">Envoyer</button>
-                                </div>
+                                <form id="contactForm" class ="input-group mb-2" method = 'POST' action='./php/index.php'>
+                                    <input class="form-control" type="text" name="prénom" placeholder="Prénom..." aria-label="Prénom..." aria-describedby="button-newsletter" />
+                                    <input class="form-control" type="text" name="name" placeholder="Nom..." aria-label="name..." aria-describedby="button-newsletter" />
+                                    <input class="form-control" type="text" name="phone" placeholder="Telephone..." aria-label="phone..." aria-describedby="button-newsletter" />
+                                    <input class="form-control" type="text" name="email" placeholder="E-mail..." aria-label="mail..." aria-describedby="button-newsletter" />
+                                    <button class="btn btn-outline-light" id="button-newsletter" type="submit">Envoyer</button>
+                                </form>
                                 <div class="small text-white-50">Nous nous soucions de votre confidentialité et ne partagerons jamais vos coordonnées.</div>
                             </div>
                         </div>
