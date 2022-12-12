@@ -11,6 +11,8 @@ $recipient = "oura6@hotmail.fr";
 
 mail($recipient, $phone, $message, $mailheader) or die("Error!");
 
+
+
 echo'
 
 <!DOCTYPE html>
@@ -25,8 +27,12 @@ echo'
 </head>
 <body>
     <div class="container">
-        <h1>Thank you for contacting me. I will get back to you as soon as possible!</h1>
-        <p class="back">Go back to the <a href="index.html">homepage</a>.</p>
+    <div class="sucess" id="submitSuccessMessage">
+    <div class="text-center mb-3">
+        <div class="fw-bolder">Formulaire envoyé avec succés, nous reviendrons vers vous dans les plus bref délais</div>
+    </div>
+</div>
+        <p class="back">Go back to the <a href="index.html">Retour au menu principal</a>.</p>
         
     </div>
 </body>
