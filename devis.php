@@ -1,3 +1,7 @@
+<?php
+include('./php/index.php');
+$numero = '';
+?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -25,7 +29,7 @@
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Accueil</a></li>
                             <li class="nav-item"><a class="nav-link" href="#!">Intervention d'Urgence</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./contact.php">Contact</a></li>
                             <li class="nav-item"><a class="nav-link" href="#!">Services</a>
                                 <ul class="nav-">
                                     <li><a href="fuite.html">Detection de fuite</a></li>
@@ -55,58 +59,35 @@
                         </div>
                         <div class="row gx-5 justify-content-center">
                             <div class="col-lg-8 col-xl-6">
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- * * SB Forms Contact Form * *-->
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- This form is pre-integrated with SB Forms.-->
-                                <!-- To make this form functional, sign up at-->
-                                <!-- https://startbootstrap.com/solution/contact-forms-->
-                                <!-- to get an API token!-->
-                                <form id="contactForm" method = 'POST' action='./php/index.php'>
+                                <form id="contactForm" method = 'POST' action=''>
                                     <!-- Name input-->
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="name"  name="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                        <label for="name">Nom complet</label>
-                                        <div class="invalid-feedback" data-sb-feedback="name:required">Veuillez entrez votre nom et prénom</div>
+                                        <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                        <label for="name">Nom complet <?php echo $etoileNom; ?></label>
+                                        <?php echo $messageErreurNom; ?>
                                     </div>
                                     <!-- Email address input-->
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                        <label for="email">E-mail</label>
-                                        <div class="invalid-feedback" data-sb-feedback="email:required">Veuillez entrer votre mail</div>
+                                        <input class="form-control" name="email" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                        <label for="email">E-mail <?php echo $etoileEmail; ?></label>
+                                            <?php echo $messageErreurEmail; ?>
                                         <div class="invalid-feedback" data-sb-feedback="email:email">E-Mail non valide.</div>
                                     </div>
                                     <!-- Phone number input-->
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="phone" name="phone" type="tel" placeholder="+33" data-sb-validations="required" />
-                                        <label for="phone">Telephone</label>
-                                        <div class="invalid-feedback" data-sb-feedback="phone:required">Veuillez entrez un numéro de télephone</div>
+                                        <input class="form-control" name="phone" id="phone" type="tel" placeholder="+33" data-sb-validations="required" />
+                                        <label for="phone">Telephone <?php echo $etoileTelephone; ?></label>
+                                        <?php echo $messageErreurTelephone; ?>
                                     </div>
                                     <!-- Message input-->
                                     <div class="form-floating mb-3">
-                                        <textarea class="form-control" id="message" name="message" type="text" placeholder="Entrer votre message..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                        <label for="message">Message</label>
-                                        <div class="invalid-feedback" data-sb-feedback="message:required">Veuillez entrer votre message</div>
+                                        <textarea class="form-control" name="message" id="message" type="text" placeholder="Entrer votre message..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                        <label for="message">Message <?php echo $etoileMessage; ?></label>
+                                        <?php echo $messageErreurMessage; ?>
                                     </div>
-                                    
-
-                                    <!-- Submit success message-->
-                                    <!---->
-                                    <!-- This is what your users will see when the form-->
-                                    <!-- has successfully submitted-->
-                                    <div class="done" id="submitSuccessMessage">
-                                        <div class="text-center mb-3">
-                                            <div class="fw-bolder">Formulaire envoyé avec succés, nous reviendrons vers vous dans les plus bref délais</div>
-                                            To activate this form, sign up at
-                                        </div>
-                                    </div>
-                                    <!-- Submit error message-->
-                                    <!---->
-                                    <!-- This is what your users will see when there is-->
-                                    <!-- an error submitting the form-->
-                                    <div class="done" id="submitErrorMessage"><div class="text-center text-danger mb-3">Erreur d'envoi !</div></div>
                                     <!-- Submit Button-->
-                                    <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Envoyer</button></div>
+                                    <div class="d-grid"><input type="submit" name="envoyer" id="envoyer" value="Envoyer"></div>  
+                                    <?php echo $messageErreur; ?>
                                 </form>
                             </div>
                         </div>

@@ -11331,7 +11331,56 @@ body > div > div.row.gx-4.gx-lg-5.align-items-center.my-5 > div.col-lg-5 {
 }
 }
 
+body > footer {
+  display: flex;
+  padding: 20px;
+  margin-top: 15px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #e9ecef;
+  align-items: flex-end;
+}
+
+Body > footer > div.nos_hebergements > ul > img, 
+body > footer > div.a_propos > ul > img {
+  width: 100%;
+  height: 200px;
+}
+
+body > footer > div.assistance > ul > a:nth-child(2) > li, 
+body > footer > div.assistance > ul > a:nth-child(3) > li {
+  border: none;
+  color: #FFF;
+  padding: 9px;
+  background-color: #4070F4;
+  border-radius: 6px;
+  margin: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+body > footer > div.assistance > ul {
+  list-style-type: none;
+}
+
+@media (max-width: 425px) {
+body > footer > div.nos_hebergements > ul, 
+body > footer > div.a_propos > ul, 
+body > footer > div.assistance > ul {
+    padding: 0;
+}
+
+body > footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+body > footer > div.assistance > ul > li > h2 {
+  text-align: center;
+}
 
 
+}
 
 

@@ -1,3 +1,4 @@
+console.log(message);
 function message(e) {
   e.preventDefaults();
   let Name = document.getElementById("name");
@@ -7,8 +8,6 @@ function message(e) {
 
   const success = document.getElementById("submitSuccessMessage");
   const danger = document.getElementById("submitErrorMessage");
-
-  console.log(message());
 
   if (
     Name.value === "" ||
