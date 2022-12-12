@@ -11728,6 +11728,10 @@ body > main > header > div > div > div > div > span {
     text-transform: uppercase;
 }
 
+body > main > section.py-5 > div > aside > div > div.ms-xl-4 {
+  text-align: center;
+}
+
 
 body > main > header > div > div > div > div > h3 {
   color: #FFF;

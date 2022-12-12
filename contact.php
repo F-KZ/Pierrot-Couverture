@@ -60,7 +60,7 @@ $numero = '';
                         </div>
                         <div class="row gx-5 justify-content-center">
                             <div class="col-lg-8 col-xl-6">
-                                <form id="contactForm" method = 'POST' action=''>
+                            <form id="contactForm" method = 'POST' action=''>
                                     <!-- Name input-->
                                     <div class="form-floating mb-3">
                                         <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
@@ -86,13 +86,9 @@ $numero = '';
                                         <label for="message">Message <?php echo $etoileMessage; ?></label>
                                         <?php echo $messageErreurMessage; ?>
                                     </div>
-                                    <?php echo $messageErreur; ?>
-
-                                    
-                                    
-                                </div>
                                     <!-- Submit Button-->
-                                    <div class="d-grid"><input type="submit" name="envoyer" id="envoyer" value="Envoyer"></div>    
+                                    <div class="d-grid"><input type="submit" name="envoyer" id="envoyer" value="Envoyer"></div>  
+                                    <?php echo $messageErreur; ?>
                                 </form>
                             </div>
                         </div>
