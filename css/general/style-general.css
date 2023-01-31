@@ -372,6 +372,14 @@
   [type=reset]:not(:disabled),
   [type=submit]:not(:disabled) {
     cursor: pointer;
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #4070F4;
+    border-radius: 6px;
+    margin: 14px;
+    transition: all 0.3s ease;
   }
   
   ::-moz-focus-inner {
@@ -11756,6 +11764,12 @@ body > main > footer > div.assistance > ul {
   padding: 0;
 }
 
+body > main > section.showcase > div > div:nth-child(1) > div.col-lg-6.order-lg-2.text-white.showcase-img,
+body > main > section.showcase > div > div:nth-child(2) > div.col-lg-6.text-white.showcase-img,
+body > main > section.showcase > div > div:nth-child(3) > div.col-lg-6.order-lg-2.text-white.showcase-img {
+  min-height: 20rem; 
+}
+
 }
 
 body > main > header > div > div > div > div > h2 > a {
@@ -11784,4 +11798,8 @@ body > main > section.py-5 > div > aside > div > div.ms-xl-4 > a > button {
 body > main > section.py-5 > div > aside > div > div.ms-xl-4 > h2 {
   color:white;
   font-size: larger;
+}
+
+body > main > header > div > div > div > div > h2 {
+  display: flex;
 }

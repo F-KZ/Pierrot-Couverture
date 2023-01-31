@@ -11379,7 +11379,9 @@ body > footer {
 body > footer > div.assistance > ul > li > h2 {
   text-align: center;
 }
-
+body > footer > div.assistance {
+  padding: 25px;
+}
 
 }
 
